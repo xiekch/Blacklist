@@ -1,0 +1,44 @@
+127.0.0.1 localhost 
+203.208.46.145 translate.google.com
+203.208.46.145 translate.googleapis.com
+
+#198.35.26.96 zh.wikipedia.org
+208.80.154.224 en.wikipedia.org
+208.80.154.224 zh.wikipedia.org
+
+#coursera
+#54.230.75.166    coursera.org
+54.230.75.166    www.coursera.org
+#54.230.75.166    class.coursera.org
+52.84.246.90 d3c33hcgiwev3.cloudfront.net 
+52.84.246.252 d3c33hcgiwev3.cloudfront.net 
+52.84.246.144 d3c33hcgiwev3.cloudfront.net 
+52.84.246.72 d3c33hcgiwev3.cloudfront.net 
+52.84.246.106 d3c33hcgiwev3.cloudfront.net 
+52.84.246.135 d3c33hcgiwev3.cloudfront.net 
+52.84.246.114 d3c33hcgiwev3.cloudfront.net
+52.84.246.90 d3c33hcgiwev3.cloudfront.net 
+52.84.246.227 d3c33hcgiwev3.cloudfront.net
+
+#blacklist
+#for yourself
+127.0.0.1 tieba.baidu.com
+127.0.0.1 sohu.com
+127.0.0.1 hxcav9.com
+127.0.0.1 renren.com
+127.0.0.1 www.sohu.com
+127.0.0.1 www.caoliu2063.com
+127.0.0.1 noalgo.info
+127.0.0.1 www.qiushibaike.com
+127.0.0.1 www.buysoftware.cn
+127.0.0.1 www.winrar.com.cn
+127.0.0.1 wemedia.ifeng.com
+127.0.0.1 news.ifeng.com
+127.0.0.1 ifeng.com
+127.0.0.1 weibo.com
+127.0.0.1 sina.com.cn
+127.0.0.1 www.sina.com.cn
+127.0.0.1 k.sina.com.cn
+127.0.0.1 www.zhihu.com
+127.0.0.1 sports.sina.com.cn
+127.0.0.1 finance.ifeng.com
