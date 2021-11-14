@@ -560,3 +560,39 @@
 127.0.0.1 www.ywggzy.com
 127.0.0.1 www.clewxc.com
 127.0.0.1 www.extree.cn
+127.0.0.1 www.sabiquge.com
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+127.0.0.1 www.vipkanshu.com
+127.0.0.1 www.ixs.la
+127.0.0.1 www.biquger.com
+127.0.0.1 www.zjzfcj.com
+127.0.0.1 m.xitongliu.cn
+127.0.0.1 m.xyshuge.com
+127.0.0.1 www.ibswtan.com
+127.0.0.1 www.qibuge.com
+127.0.0.1 www.zjwyzyy.com
+127.0.0.1 www.shsongjiaji.com
+127.0.0.1 www.yqtxt.com
+127.0.0.1 www.dgxhsd.com
+127.0.0.1 m.tadu.com
+127.0.0.1 www.52ggd.com
+127.0.0.1 www.ydx8.com
+127.0.0.1 www.fqzw.net
+127.0.0.1 fanqienovel.com
+127.0.0.1 www.biquw.com
+127.0.0.1 www.fqxsw.org
+127.0.0.1 www.yiwan.com
+127.0.0.1 www.gxyx.org
+127.0.0.1 m.midukanshu.com
+127.0.0.1 www.bqgxxx.com
+127.0.0.1 www.99mk.com
+127.0.0.1 www.3qxs.com
+127.0.0.1 m.biqusa.com
+127.0.0.1 www.88gp.net
+127.0.0.1 www.niuniuxs.com
+127.0.0.1 m.baka.cc
+127.0.0.1 www.yiqinglei.com
+127.0.0.1 www.biqugeq.com
