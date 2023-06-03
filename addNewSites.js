@@ -32,7 +32,7 @@ function addNewSites() {
     for (let ele of elements) {
         try {
             let host = new URL(ele).host;
-            if (existed.indexOf(host) == -1) {
+            if (existed.indexOf(host) == -1 && host.includes('.')) {
                 append.add(host);
             }
         } catch (e) {
