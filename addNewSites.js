@@ -49,4 +49,28 @@ function addNewSites() {
     console.log(res)
 }
 
-addNewSites()
+//addNewSites()
+
+let times = 0
+let visitedPages = []
+function iteratePageForBaidu() {
+    if (times > 32) {
+        return
+    }
+    addNewSites()
+    let pages = $('#page')[0].getElementsByTagName('a')
+    let nextPage = pages[pages.length - 1]
+    let pageNum = nextPage.href.match(/pn=(\d+)/)[1]
+    if (nextPage && !visitedPages.includes(pageNum)) {
+        nextPage.click()
+        visitedPages.push(pageNum)
+    } else {
+        return
+    }
+    setTimeout(() => {
+        iteratePageForBaidu()
+        times++
+    }, 6000)
+}
+
+iteratePageForBaidu()
