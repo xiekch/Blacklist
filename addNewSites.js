@@ -5,6 +5,7 @@ let append = new Set()
 
 function addNewSites() {
     let elements = []
+    // google
     for (let e of document.getElementsByClassName('qLRx3b')) {
         elements.push(e.firstChild.textContent)
 
@@ -13,6 +14,7 @@ function addNewSites() {
         elements.push(e.href)
     }
 
+    // baidu
     for (let e of document.getElementsByClassName('c-color-gray')) {
         let url = e.innerText
         if (!url.startsWith('http')) {
@@ -21,13 +23,13 @@ function addNewSites() {
         elements.push(url)
     }
 
-    for (let e of document.getElementsByTagName('cite')) {
-        let url = e.innerText
-        if (!url.startsWith('http')) {
-            url = 'http://' + url
-        }
-        elements.push(url)
-    }
+    // for (let e of document.getElementsByTagName('cite')) {
+    //     let url = e.innerText
+    //     if (!url.startsWith('http')) {
+    //         url = 'http://' + url
+    //     }
+    //     elements.push(url)
+    // }
 
     for (let ele of elements) {
         try {
@@ -54,7 +56,7 @@ function addNewSites() {
 let times = 0
 let visitedPages = []
 function iteratePageForBaidu() {
-    if (times > 32) {
+    if (times > 40) {
         return
     }
     addNewSites()
