@@ -75,4 +75,26 @@ function iteratePageForBaidu() {
     }, 6000)
 }
 
-iteratePageForBaidu()
+
+function iteratePageForGoogle($) {
+    if (times > 12) {
+        return
+    }
+    addNewSites()
+    let next = $('.GNJvt')
+    if (next != null) {
+        next.click()
+    } else {
+        return
+    }
+    setTimeout(() => {
+        iteratePageForGoogle($)
+        times++
+    }, 5000)
+}
+
+if ($('#page') != null) {
+    iteratePageForBaidu()
+} else {
+    iteratePageForGoogle($)
+}
