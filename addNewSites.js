@@ -77,7 +77,7 @@ function iteratePageForBaidu() {
 
 
 function iteratePageForGoogle($) {
-    if (times > 14) {
+    if (times > 16) {
         return
     }
     addNewSites()
@@ -90,7 +90,7 @@ function iteratePageForGoogle($) {
     setTimeout(() => {
         iteratePageForGoogle($)
         times++
-    }, 3000)
+    }, 1000)
 }
 
 if ($('#page') != null) {
