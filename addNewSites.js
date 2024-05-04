@@ -23,6 +23,18 @@ function addNewSites() {
         elements.push(url)
     }
 
+
+    // sogou
+    for (let e of document.getElementsByClassName('citeurl')) {
+        let url = e.firstChild.textContent
+        if (url.indexOf('.') >= 0) {
+            if (!url.startsWith('http')) {
+                url = 'http://' + url
+            }
+            elements.push(url)
+        }
+    }
+
     // for (let e of document.getElementsByTagName('cite')) {
     //     let url = e.innerText
     //     if (!url.startsWith('http')) {
@@ -93,8 +105,32 @@ function iteratePageForGoogle($) {
     }, 1000)
 }
 
-if ($('#page') != null) {
+
+function iteratePageForSogou() {
+    if (times > 40) {
+        return
+    }
+    addNewSites()
+    let nextPage = $('#sogou_next')[0]
+    if (nextPage) {
+        nextPage.click()
+    } else {
+        return
+    }
+    setTimeout(() => {
+        iteratePageForSogou()
+        times++
+    }, 5000)
+}
+
+let curDomain = document.domain
+if (curDomain.indexOf('baidu') >= 0) {
+    console.log('baidu')
     iteratePageForBaidu()
-} else {
+} else if (curDomain.indexOf('google') >= 0) {
+    console.log('google')
     iteratePageForGoogle($)
+} else if (curDomain.indexOf('sogou') >= 0) {
+    console.log('sogou')
+    iteratePageForSogou()
 }
