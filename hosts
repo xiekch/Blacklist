@@ -1,4 +1,6 @@
 127.0.0.1 localhost 
+255.255.255.255 broadcasthost
+::1             localhost
 
 #blacklist
 #for yourself
@@ -8927,7 +8929,7 @@
 127.0.0.1 www.jinhuag.com
 127.0.0.1 metanovel.org
 127.0.0.1 m.88shu.net
-#127.0.0.1 www.google.com
+127.0.0.1 www.google.com
 127.0.0.1 www.yj-gx.com
 127.0.0.1 d.zzshu8.net
 127.0.0.1 www.23wxx.net
@@ -26433,3 +26435,25 @@
 127.0.0.1 xszj.org
 127.0.0.1 m.95sg.com
 127.0.0.1 alu146m.top
+127.0.0.1 www.xxyy66.com
+127.0.0.1 lp.pinduoduo.com
+127.0.0.1 www.fshfd.com
+127.0.0.1 mna.net.cn
+127.0.0.1 meters.uni-trend.com.cn
+127.0.0.1 www.bisaqu.cc
+127.0.0.1 wenwen.soso.com
+127.0.0.1 ixdzs.tw
+127.0.0.1 sto55.com
+127.0.0.1 m.iweb.qq.com
+127.0.0.1 www.barnesandnoble.com
+127.0.0.1 m.dwn.qq.com
+127.0.0.1 www.gdnfu.edu.cn
+127.0.0.1 www.waterstones.com
+127.0.0.1 guofeng.yuedu.163.com
+127.0.0.1 www.italki.com
+127.0.0.1 69shuba.cx
+127.0.0.1 www.beauty321.com
+127.0.0.1 www.google.com.hk
+127.0.0.1 www.biqugewx.info
+127.0.0.1 ssyy66.com
+127.0.0.1 www.biqugeer.com
