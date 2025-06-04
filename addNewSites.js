@@ -15,7 +15,7 @@ function addNewSites() {
     }
 
     // baidu
-    for (let e of document.getElementsByClassName('c-color-gray')) {
+    for (let e of document.getElementsByClassName('cosc-source-text')) {
         let url = e.innerText
         if (!url.startsWith('http')) {
             url = 'http://' + url
@@ -68,7 +68,7 @@ function addNewSites() {
 let times = 0
 let visitedPages = []
 function iteratePageForBaidu() {
-    if (times > 40) {
+    if (times > 25) {
         return
     }
     addNewSites()
